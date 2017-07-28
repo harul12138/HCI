@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/image_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >        
+   
+        <TextView
+        android:id="@+id/menu_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:text="点击可进行不同感应器的选择"/>
+
+         <ImageView
+            android:id="@+id/backimage"
+            android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"
+        	android:scaleType="matrix"
+        	android:src="@drawable/picture2"
+        	android:contentDescription="this is imageview"/>
+    
+</LinearLayout>

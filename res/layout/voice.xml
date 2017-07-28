@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/image_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >        
+   
+   <LinearLayout
+        android:id="@+id/test"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:orientation="horizontal">
+         <Button 
+		        android:id="@+id/speakClick"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:text="点击说话"
+		        android:textSize="20sp" />
+	        
+        
+    </LinearLayout>
+    
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"
+        	android:scaleType="matrix"
+        	android:src="@drawable/picture2"
+        	android:background="#000000"
+        	android:contentDescription="this is imageview"
+            />
+    
+</LinearLayout>
